@@ -1,0 +1,116 @@
+.a {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.a-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+}
+
+.a-right {
+  flex: 1;
+}
+
+.a-card {
+  width: 60%;
+  height: 70vh;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.a-card.bg {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: #333;
+}
+
+.a-left-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.a-title {
+  font-weight: 400;
+}
+
+.a-sub {
+  margin: 20px 0;
+}
+
+.a-desc {
+  font-weight: 300;
+}
+
+.a-right-img.exprience {
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.a-right-img.studies {
+  width: 100px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.a-detail-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.upper {
+  margin-right: 20px;
+}
+
+.a-detail-desc {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  .a {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .a-left {
+    width: 100%;
+  }
+
+  .a-card {
+    height: 50vh;
+    position: relative;
+    overflow: visible;
+  }
+
+  .a-left-img {
+    position: absolute;
+    border-radius: 30px;
+    left: 0;
+  }
+
+  .a-card.bg,
+  .a-detail {
+    display: none;
+  }
+
+  .a-right {
+    padding: 20px;
+  }
+}
