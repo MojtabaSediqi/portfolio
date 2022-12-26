@@ -15,7 +15,7 @@ function Intro() {
               <div className="i-title-item">Front-end</div>
               <div className="i-title-item">React JS</div>
               <div className="i-title-item">Back-end</div>
-              <div className="i-title-item">Node JS</div>
+              <div className="i-title-item">C#, .NET</div>
             </div>
           </div>
           <p className="i-desc">
